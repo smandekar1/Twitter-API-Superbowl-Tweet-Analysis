@@ -1,4 +1,4 @@
-# Twitter-API-Superbowl-Tweet-Analysis
+# Twitter API - Superbowl Tweet Analysis
 
  [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 
