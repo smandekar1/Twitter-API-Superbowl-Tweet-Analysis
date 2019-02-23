@@ -1,16 +1,15 @@
 
 
-from alpine:latest
+FROM python:3.6-alpine
+
+
+
+RUN apk add --no-cache python3-dev \
+    && pip3 install --upgrade pip 
+    
 
 WORKDIR /app
 COPY . /app
-
-RUN apk add --no-cache python3-dev 
-RUN apk --update add --virtual build-dependencies libffi-dev openssl-dev python-dev py-pip build-base \
-    && pip3 install --upgrade pip \
-    
-
-
 
 
 
@@ -20,4 +19,4 @@ EXPOSE 5000
 
 ENTRYPOINT  ["python3"]
 
-CMD ["parse_json.py"]
+CMD [ "./src/parse_json.py" ]

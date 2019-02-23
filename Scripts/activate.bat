@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=C:\Users\hp\Dev\Twitter\twitter_search"
+set "VIRTUAL_ENV=C:\Users\hp\dev\twitter_search"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
