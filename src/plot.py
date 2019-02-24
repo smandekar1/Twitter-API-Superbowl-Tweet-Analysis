@@ -27,13 +27,13 @@ width = 0.35  # the width of the bars
 
 fig, ax = plt.subplots()
 rects1 = ax.bar(ind, men_means, width,
-                color='SkyBlue', label='Count')
+                color='olivedrab', label='Count')
 # rects2 = ax.bar(ind + width/2, women_means, width, yerr=women_std,
 #                 color='IndianRed', label='Women')
 
 # Add some text for labels, title and custom x-axis tick labels, etc.
-ax.set_ylabel('Scores')
-ax.set_title('Most Common Words from Tweets')
+ax.set_ylabel('Word Count')
+ax.set_title('Most Common Words from Superbowl Tweets')
 ax.set_xticks(ind)
 ax.set_xticklabels(labels)
 ax.legend()
