@@ -6,6 +6,9 @@ For writers, having an understanding of how a story is playing out can be crucia
 
 Search criteria also includes time parameters so that content creaters can view real time content and can create effective.   
 
+
+![](https://github.com/smandekar1/quantopian-research/blob/master/images/jupyter1.JPG)
+
 # Sample tweets returned while Superbowl was being play
 
 RT @_SJPeace_: I heard the #SuperBowl is coming up.
