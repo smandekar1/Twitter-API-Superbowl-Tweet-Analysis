@@ -7,7 +7,7 @@ premium_search_args = load_credentials("~/.twitter_keys.yaml",
                                        env_overwrite=False)
 
 
-rule = gen_rule_payload("superbowl",
+rule = gen_rule_payload("Superbowl Tom Brady",
 						from_date="2019-02-02T23:59", #UTC - converted for superbowl date and game time
                         to_date="2019-02-03T03:00")
 print(rule)

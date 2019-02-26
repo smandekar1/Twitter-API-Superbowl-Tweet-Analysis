@@ -74,7 +74,25 @@ with open('only_text.json', mode='r', encoding='utf-8') as words_file:
 	print(type(stop_words))
 	# print(d)
 
-	counted = Counter(e).most_common(15)
-
+	counted = Counter(e).most_common(1000)
+	# counted = [x.decode('utf-8','ignore').encode("utf-8") for x in counted]
+	
+	# counted=counted.decode('utf-8','ignore').encode("utf-8")
+	# [x.encode('utf-8') for x in tmp]
 	print("--------------\n", counted)
+	print(type(counted))
 
+	with open("football.txt", "w", encoding="utf-8") as ofile:
+		for k,v in counted:
+				if k.isalnum():
+					ofile.write(" " + k)
+	
+	# with open("football.txt", "w") as ofile:
+
+	# 	for x in counted:
+	# 		if (x[0] is String):
+	# 		  	ofile.write(" " + k)
+
+
+
+					# 		if k.decode('utf-8'):
