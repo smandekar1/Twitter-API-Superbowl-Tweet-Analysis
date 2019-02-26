@@ -5,9 +5,13 @@
 For writers, having an understanding of how a story is playing out can be crucial to creating meaningful content.  Using the Twitter-API, content creaters can create a custom search that show which aspects of a story are the most pertinent.  Tweets are searched by topic or search term and tweets with a minimum number of likes (favorite_count) are included in the search results.  This allows content creaters to quickly understand what topics audience members are most interested in at the time.  
 
 Search criteria also includes time parameters so that content creaters can view real time content and can create effective.    
-      
-      
+
+# Wordcloud generated from realtime tweets during gameplay 
+![](https://github.com/smandekar1/Twitter-API-Superbowl-Tweet-Analysis/blob/master/assets/word_helmut_edited_700.png)
+
+
 ![](https://github.com/smandekar1/Twitter-API-Superbowl-Tweet-Analysis/blob/master/Assets/graph.JPG)
+
 
 # Sample tweets returned while Superbowl was being play
 
